@@ -9,6 +9,9 @@ count = 0
 prize_money = 0
 
 budget = int(input("please enter you budget each round cost 3 nis: "))
+while budget < 3:
+    budget = int(input("not enough budget you need 3 nis or more to play: "))
+
 print("\nrolling the winner's numbers...\n-----------------------------")
 sleep(3)
 
